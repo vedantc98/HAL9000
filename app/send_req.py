@@ -4,11 +4,11 @@ import requests
 import subprocess
 import xml.etree.ElementTree as ET
 
-RUBY_SLAVE = "search_request_gen.rb"
+RUBY_SLAVE = "app/search_request_gen.rb"
 
 def get_request_url(searchQuery, searchIndex = "All"):
 
-	cmd = "ruby " + RUBY_SLAVE + " " + searchQuery
+	cmd = "ruby " + RUBY_SLAVE + " " + searchQuery + " " + searchIndex
 	inputstr = subprocess.check_output(cmd, shell=True)
 	inputstr = inputstr[:len(inputstr) - 1]
 	

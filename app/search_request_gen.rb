@@ -20,6 +20,7 @@ searchIndex = "All"
 #Take search query and index input from python master
 searchQuery = ARGV[0]
 searchQuery = searchQuery.gsub("+", " ")
+searchIndex = ARGV[1]
 
 params = {
   "Service" => "AWSECommerceService",

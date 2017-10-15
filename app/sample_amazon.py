@@ -3,7 +3,7 @@
 import urllib
 import requests
 import string
-import hashlib
+#import hashlib
 import hmac
 import time
 import datetime

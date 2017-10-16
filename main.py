@@ -3,7 +3,7 @@ from flask import request
 import app.send_req
 import json
 from flask import make_response
-from responses import makeWebhookResponse
+from app.responses import makeWebhookResponse
 
 app = Flask(__name__)
 

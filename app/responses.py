@@ -27,7 +27,7 @@ def searchResponse(parameters):
 	results = send_req.get_search_results(searchQuery, numberOfItems, userID, searchIndex)
 	speech = constructSpeechResponse(results)
 	displayText = speech
-	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters = {}}] 
+	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters : {}}] 
 	data = {}
 
 	return {

@@ -9,7 +9,7 @@ import os
 cwd = os.getcwd()
 RUBY_SLAVE = cwd + "/search_request_gen.rb"
 
-def get_search_results(searchQuery, searchIndex = "All", numberOfResults, userID):
+def get_search_results(searchQuery, numberOfResults, userID, searchIndex = "All"):
 
 	temp_XML_file_path = cwd + "../" + "Responses/temp_search_results_%s.xml" %(userID)
 	cmd = "ruby " + RUBY_SLAVE + " " + searchQuery + " " + searchIndex

@@ -2,9 +2,13 @@
 
 import requests
 import subprocess
-import xml.etree.ElementTree as ET
+import search_parser
 
-RUBY_SLAVE = "app/search_request_gen.rb"
+#Replace with absolute ruby path
+RUBY_SLAVE = "search_request_gen.rb"
+#Replace with absolute path in Azure
+#TODO
+temp_XML_file_path = "/Users/vedantc98/Desktop/Code/HAL9000/Responses/temp_search_results.xml"
 
 def get_request_url(searchQuery, searchIndex = "All"):
 
@@ -13,14 +17,13 @@ def get_request_url(searchQuery, searchIndex = "All"):
 	inputstr = inputstr[:len(inputstr) - 1]
 	
 	r = requests.get(inputstr)
-	responseXML = r.text
+	responseXML = r.text.encode('utf-8').strip()
 
-	print responseXML
+	xmlFile = open(temp_XML_file_path, "w")
+	xmlFile.write(responseXML)
+	xmlFile.close()
 
-	#tree = ET.parse(r.text)
-
-	#root = tree.getroot()
-
+	search_parser.searchXMLParse(temp_XML_file_path)
 
 query = raw_input().strip()
 get_request_url(query.replace(" ", "+"))

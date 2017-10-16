@@ -1,0 +1,233 @@
+(lp0
+(dp1
+S'index'
+p2
+I1
+sS'DetailPageURL'
+p3
+S'https://www.amazon.in/Apple-iPhone-Jet-Black-32GB/dp/B0764FLPKQ?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0764FLPKQ'
+p4
+sS'ASIN'
+p5
+S'B0764FLPKQ'
+p6
+sS'Color'
+p7
+S'Jet Black'
+p8
+sS'Brand'
+p9
+S'Apple'
+p10
+sS'Title'
+p11
+S'Apple iPhone 7 (Jet Black, 32GB)'
+p12
+sS'price'
+p13
+I49000
+sS'ListPrice'
+p14
+S'INR 49,000.00'
+p15
+sa(dp16
+g2
+I2
+sg3
+S'https://www.amazon.in/Apple-iPhone-7-Black-32GB/dp/B01LZKSVRB?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZKSVRB'
+p17
+sg5
+S'B01LZKSVRB'
+p18
+sg7
+S'Black'
+p19
+sg9
+S'Apple'
+p20
+sg11
+S'Apple iPhone 7 (Black, 32GB)'
+p21
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p22
+sa(dp23
+g2
+I3
+sg3
+S'https://www.amazon.in/Apple-iPhone-Rose-Gold-32GB/dp/B01LZWIOS4?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZWIOS4'
+p24
+sg5
+S'B01LZWIOS4'
+p25
+sg7
+S'Rose Gold'
+p26
+sg9
+S'Apple'
+p27
+sg11
+S'Apple iPhone 7 (Rose Gold, 32GB)'
+p28
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p29
+sa(dp30
+g2
+I4
+sg3
+S'https://www.amazon.in/Apple-iPhone-7-Gold-32GB/dp/B01LZKLPVQ?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZKLPVQ'
+p31
+sg5
+S'B01LZKLPVQ'
+p32
+sg7
+S'Gold'
+p33
+sg9
+S'Apple'
+p34
+sg11
+S'Apple iPhone 7 (Gold, 32GB)'
+p35
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p36
+sa(dp37
+g2
+I5
+sg3
+S'https://www.amazon.in/Apple-iPhone-Jet-Black-128GB/dp/B01M0811EC?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01M0811EC'
+p38
+sg5
+S'B01M0811EC'
+p39
+sg7
+S'Jet Black'
+p40
+sg9
+S'Apple'
+p41
+sg11
+S'Apple iPhone 7 (Jet Black, 128GB)'
+p42
+sg13
+I58000
+sg14
+S'INR 58,000.00'
+p43
+sa(dp44
+g2
+I6
+sg3
+S'https://www.amazon.in/Apple-iPhone-7-Silver-32GB/dp/B01LZWFVHL?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZWFVHL'
+p45
+sg5
+S'B01LZWFVHL'
+p46
+sg7
+S'Silver'
+p47
+sg9
+S'Apple'
+p48
+sg11
+S'Apple iPhone 7 (Silver, 32GB)'
+p49
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p50
+sa(dp51
+g2
+I7
+sg3
+Nsg5
+S'B0762NPQYF'
+p52
+sg7
+S'Multicolour'
+p53
+sg9
+S'captcha'
+p54
+sg11
+S'iPhone 7 Adapter, Lightning to 3.5mm Audio Cable Compatible IOS 10.3 or Later, Captcha Dual Lightning Headphone Audio & Charge Adapter for iPhone 7 / 7 Plus (Assorted Colour)'
+p55
+sg13
+I999
+sg14
+S'INR 999.00'
+p56
+sa(dp57
+g2
+I8
+sg3
+Nsg5
+S'B0762QGZRM'
+p58
+sg9
+S'Plus'
+p59
+sg11
+S'Plus 0.1 Mm Nano Technology German Schott Glass Tempered Glass Screen Protector Guard For Apple iPhone 7'
+p60
+sg13
+I249
+sg14
+S'INR 249.00'
+p61
+sa(dp62
+g2
+I9
+sg3
+S'https://www.amazon.in/Apple-iPhone-7-Black-128GB/dp/B01LXAS8M2?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LXAS8M2'
+p63
+sg5
+S'B01LXAS8M2'
+p64
+sg7
+S'Black'
+p65
+sg9
+S'Apple'
+p66
+sg11
+S'Apple iPhone 7 (Black, 128GB)'
+p67
+sg13
+I58000
+sg14
+S'INR 58,000.00'
+p68
+sa(dp69
+g2
+I10
+sg3
+S'https://www.amazon.in/WOW-Imagine-Silicone-Protection-Shockproof/dp/B06XQYWSMC?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B06XQYWSMC'
+p70
+sg5
+S'B06XQYWSMC'
+p71
+sg7
+S'Pitch Black'
+p72
+sg9
+S'WOW Imagine'
+p73
+sg11
+S'WOW Imagine(TM) Soft Silicone All Sides Protection With Anti Dust Plugs Shockproof Slim Back Case Cover For Apple iPhone 8 / iPhone 7 (4.7 inch screen) - Pitch Black'
+p74
+sg13
+I219
+sg14
+S'INR 219.00'
+p75
+sa.

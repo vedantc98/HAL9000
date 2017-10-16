@@ -12,9 +12,11 @@ def post_handler():
 	req=request.get_json(silent=True, force=True)
 
 	#Perform the search after getting the JSON from API.ai
-	searchQuery = "iphone"
+	searchQuery = "iphone 7"
 	searchIndex = "All"
+
 	app.send_req.get_request_url(searchQuery, searchIndex)
 
 if __name__ == '__main__':
   app.run()
+

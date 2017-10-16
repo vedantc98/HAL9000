@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import pickle
+#import pickle
 
 def searchXMLParse(xmlFile, numberOfResults, userID):
 	tree = ET.fromstring(xmlFile)
@@ -45,8 +45,8 @@ def searchXMLParse(xmlFile, numberOfResults, userID):
 
 		searchResults.append(attributes)
 
-	with open(searchResultsFileLocation, "w") as searchResultsFile:
-		pickle.dump(searchResults, searchResultsFile)
+	#with open(searchResultsFileLocation, "w") as searchResultsFile:
+	#	pickle.dump(searchResults, searchResultsFile)
 
 	return searchResults[:numberOfResults]
 

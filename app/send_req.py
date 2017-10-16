@@ -25,5 +25,5 @@ def get_request_url(searchQuery, searchIndex = "All"):
 
 	search_parser.searchXMLParse(temp_XML_file_path)
 
-query = raw_input().strip()
-get_request_url(query.replace(" ", "+"))
+#query = raw_input().strip()
+#get_request_url(query.replace(" ", "+"))

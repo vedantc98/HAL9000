@@ -5,7 +5,9 @@ SOURCE = "https://amazon.in"
 
 def makeWebhookResponse(req):
 	result = req['result']
-	action = req['action']
+	action = None
+	if 'action' in req:
+		action = req['action']
 	contexts = req['contexts']
 	parameters = req['parameters']
 	userID = req['user_id']

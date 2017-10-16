@@ -5,9 +5,10 @@ SOURCE = "https://amazon.in"
 
 def makeWebhookResponse(req):
 	result = req['result']
-	action = result['action']
-	contexts = result['contexts']
-	parameters = result['parameters']
+	action = req['action']
+	contexts = req['contexts']
+	parameters = req['parameters']
+	userID = req['user_id']
 
 	if action == "web.search":
 		response = searchResponse(parameters)
@@ -23,7 +24,7 @@ def searchResponse(parameters):
 	if 'itemLimit' in parameters:
 		numberOfItems = parameters['itemLimit']
 
-	results = send_req.get_search_results(searchQuery, searchIndex, numberOfItems)
+	results = send_req.get_search_results(searchQuery, searchIndex, numberOfItems, userID)
 	speech = constructSpeechResponse(results)
 	displayText = speech
 	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters = {}}] 
@@ -38,7 +39,7 @@ def searchResponse(parameters):
 
 
 def constructSpeechResponse(results):
-	speech = "Here's a list of %d responses for the item you requested. To track any one of them, say Track [item number]\n"
+	speech = "Here's a list of %d responses for the item you requested:\n"
 	i = 1
 
 	for item in results:
@@ -48,4 +49,5 @@ def constructSpeechResponse(results):
 		speech += "Item url : " + item['DetailPageURL'] + "\n"
 		speech += "\n"
 
+	speech += "To track any one of these items, respond with 'Track [item_number]'"
 	return speech

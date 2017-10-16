@@ -3,15 +3,15 @@
 import requests
 import subprocess
 import search_parser
+import os
 
 #Replace with absolute ruby path
-RUBY_SLAVE = "search_request_gen.rb"
-#Replace with absolute path in Azure
-#TODO
-temp_XML_file_path = "/Users/vedantc98/Desktop/Code/HAL9000/Responses/temp_search_results.xml"
+cwd = os.getcwd()
+RUBY_SLAVE = cwd + "/search_request_gen.rb"
 
-def get_request_url(searchQuery, searchIndex = "All"):
+def get_search_results(searchQuery, searchIndex = "All", numberOfResults, userID):
 
+	temp_XML_file_path = cwd + "../" + "Responses/temp_search_results_%s.xml" %(userID)
 	cmd = "ruby " + RUBY_SLAVE + " " + searchQuery + " " + searchIndex
 	inputstr = subprocess.check_output(cmd, shell=True)
 	inputstr = inputstr[:len(inputstr) - 1]
@@ -23,7 +23,7 @@ def get_request_url(searchQuery, searchIndex = "All"):
 	xmlFile.write(responseXML)
 	xmlFile.close()
 
-	search_parser.searchXMLParse(temp_XML_file_path)
+	return search_parser.searchXMLParse(temp_XML_file_path, numberOfResults, userID)
 
 #query = raw_input().strip()
 #get_request_url(query.replace(" ", "+"))

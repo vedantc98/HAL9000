@@ -24,7 +24,7 @@ def searchResponse(parameters):
 	if 'itemLimit' in parameters:
 		numberOfItems = parameters['itemLimit']
 
-	results = send_req.get_search_results(searchQuery, searchIndex, numberOfItems, userID)
+	results = send_req.get_search_results(searchQuery, numberOfItems, userID, searchIndex)
 	speech = constructSpeechResponse(results)
 	displayText = speech
 	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters = {}}] 

@@ -26,8 +26,8 @@ def post_handler():
 	webhookResponse = makeWebhookResponse(req)
 
 	webhookResponse = json.dumps(webhookResponse, indent=4)
-    r = make_response(webhookResponse)
-    r.headers['Content-Type']='application/json'
+	r = make_response(webhookResponse)
+	r.headers['Content-Type']='application/json'
 
 	return r
 

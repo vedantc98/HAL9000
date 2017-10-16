@@ -6,15 +6,24 @@ SOURCE = "https://amazon.in"
 def makeWebhookResponse(req):
 	result = req['result']
 	action = None
-	if 'action' in req:
-		action = req['action']
-	contexts = req['contexts']
-	parameters = req['parameters']
-	userID = req['user_id']
+	contexts = None
+	parameters = None
+	userID = None
+	if 'action' in result:
+		action = result['action']
+	if 'contexts' in req:
+		contexts = result['contexts']
+	if 'parameters' in result:
+		parameters = result['parameters']
+
+	userID = req['originalRequest']['data']['user']['user_id']
 
 	if action == "web.search":
 		response = searchResponse(parameters)
 		return response
+
+	else:
+		return defaultResponse()
 
 def searchResponse(parameters):
 	searchQuery = parameters['q']
@@ -53,3 +62,12 @@ def constructSpeechResponse(results):
 
 	speech += "To track any one of these items, respond with 'Track [item_number]'"
 	return speech
+
+def defaultResponse():
+	speech = "Could not find an appropriate response. File a bug?"
+	return {
+			"speech" : speech
+			"displayText" : speech
+			"source" : "Us"
+	}
+

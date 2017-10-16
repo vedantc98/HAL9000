@@ -5,223 +5,229 @@ p2
 I1
 sS'DetailPageURL'
 p3
-S'https://www.amazon.in/Philips-Trimmer-Cordless-QT4005-15/dp/B00CE3FT66?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00CE3FT66'
+S'https://www.amazon.in/Apple-iPhone-Jet-Black-32GB/dp/B0764FLPKQ?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0764FLPKQ'
 p4
 sS'ASIN'
 p5
-S'B00CE3FT66'
+S'B0764FLPKQ'
 p6
 sS'Color'
 p7
-S'BLACK'
+S'Jet Black'
 p8
 sS'Brand'
 p9
-S'Philips'
+S'Apple'
 p10
 sS'Title'
 p11
-S'Philips Beard Trimmer Cordless for Men QT4005/15'
+S'Apple iPhone 7 (Jet Black, 32GB)'
 p12
 sS'price'
 p13
-I1795
+I49000
 sS'ListPrice'
 p14
-S'INR 1,795.00'
+S'INR 49,000.00'
 p15
 sa(dp16
 g2
 I2
 sg3
-Nsg5
-S'B0744L38KK'
+S'https://www.amazon.in/Apple-iPhone-7-Black-32GB/dp/B01LZKSVRB?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZKSVRB'
 p17
-sg7
-S'Green'
+sg5
+S'B01LZKSVRB'
 p18
-sg9
-S'Philips'
+sg7
+S'Black'
 p19
-sg11
-S'Philips BT1212/15 Beard Trimmer (Green)'
+sg9
+S'Apple'
 p20
-sg13
-I945
-sg14
-S'INR 945.00'
+sg11
+S'Apple iPhone 7 (Black, 32GB)'
 p21
-sa(dp22
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p22
+sa(dp23
 g2
 I3
 sg3
-Nsg5
-S'B00JJIDBIC'
-p23
-sg9
-S'Philips'
+S'https://www.amazon.in/Apple-iPhone-Rose-Gold-32GB/dp/B01LZWIOS4?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZWIOS4'
 p24
-sg11
-S'Philips Beard Trimmer Cordless  and Corded for Men QT4011/15'
+sg5
+S'B01LZWIOS4'
 p25
-sg13
-I2395
-sg14
-S'INR 2,395.00'
+sg7
+S'Rose Gold'
 p26
-sa(dp27
+sg9
+S'Apple'
+p27
+sg11
+S'Apple iPhone 7 (Rose Gold, 32GB)'
+p28
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p29
+sa(dp30
 g2
 I4
 sg3
-Nsg5
-S'B00L8PEEAI'
-p28
-sg7
-S'Black'
-p29
-sg9
-S'Philips'
-p30
-sg11
-S'Philips Beard Trimmer Cordless for Men QT4001/15'
+S'https://www.amazon.in/Apple-iPhone-7-Gold-32GB/dp/B01LZKLPVQ?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZKLPVQ'
 p31
-sg13
-I1475
-sg14
-S'INR 1,475.00'
+sg5
+S'B01LZKLPVQ'
 p32
-sa(dp33
+sg7
+S'Gold'
+p33
+sg9
+S'Apple'
+p34
+sg11
+S'Apple iPhone 7 (Gold, 32GB)'
+p35
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p36
+sa(dp37
 g2
 I5
 sg3
-Nsg5
-S'B019XKB76S'
-p34
-sg7
-S'Black'
-p35
-sg9
-S'Panasonic'
-p36
-sg11
-S"Panasonic ER-207-WK-44B Men's Beard and Hair Trimmer (Black)"
-p37
-sg13
-I949
-sg14
-S'INR 949.00'
+S'https://www.amazon.in/Apple-iPhone-Jet-Black-128GB/dp/B01M0811EC?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01M0811EC'
 p38
-sa(dp39
+sg5
+S'B01M0811EC'
+p39
+sg7
+S'Jet Black'
+p40
+sg9
+S'Apple'
+p41
+sg11
+S'Apple iPhone 7 (Jet Black, 128GB)'
+p42
+sg13
+I58000
+sg14
+S'INR 58,000.00'
+p43
+sa(dp44
 g2
 I6
 sg3
-S'https://www.amazon.in/Nova-NHT-1045-Cordless-Trimmer/dp/B00RGPNLCQ?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00RGPNLCQ'
-p40
-sg5
-S'B00RGPNLCQ'
-p41
-sg7
-S'White'
-p42
-sg9
-S'Nova'
-p43
-sg11
-S'Nova NHT 1045 Cordless Trimmer (White)'
-p44
-sg13
-I995
-sg14
-S'INR 995.00'
+S'https://www.amazon.in/Apple-iPhone-7-Silver-32GB/dp/B01LZWFVHL?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LZWFVHL'
 p45
-sa(dp46
+sg5
+S'B01LZWFVHL'
+p46
+sg7
+S'Silver'
+p47
+sg9
+S'Apple'
+p48
+sg11
+S'Apple iPhone 7 (Silver, 32GB)'
+p49
+sg13
+I49000
+sg14
+S'INR 49,000.00'
+p50
+sa(dp51
 g2
 I7
 sg3
-S'https://www.amazon.in/Nova-NHT-1045-Trimmer-Black/dp/B00VT8CUHS?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00VT8CUHS'
-p47
-sg5
-S'B00VT8CUHS'
-p48
-sg7
-S'Black'
-p49
-sg9
-S'Nova'
-p50
-sg11
-S'Nova NHT 1045 Beard Trimmer (Black)'
-p51
-sg13
-I995
-sg14
-S'INR 995.00'
+Nsg5
+S'B0762NPQYF'
 p52
-sa(dp53
+sg7
+S'Multicolour'
+p53
+sg9
+S'captcha'
+p54
+sg11
+S'iPhone 7 Adapter, Lightning to 3.5mm Audio Cable Compatible IOS 10.3 or Later, Captcha Dual Lightning Headphone Audio & Charge Adapter for iPhone 7 / 7 Plus (Assorted Colour)'
+p55
+sg13
+I999
+sg14
+S'INR 999.00'
+p56
+sa(dp57
 g2
 I8
 sg3
-S'https://www.amazon.in/Nova-NHT-Advance-Trimmer-Orange/dp/B01ID50CDS?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01ID50CDS'
-p54
-sg5
-S'B01ID50CDS'
-p55
-sg7
-S'Orange'
-p56
-sg9
-S'Nova'
-p57
-sg11
-S'Nova NHT 1047 Pro Skin Advance Trimmer (Orange)'
+Nsg5
+S'B0762QGZRM'
 p58
-sg13
-I1495
-sg14
-S'INR 1,495.00'
+sg9
+S'Plus'
 p59
-sa(dp60
+sg11
+S'Plus 0.1 Mm Nano Technology German Schott Glass Tempered Glass Screen Protector Guard For Apple iPhone 7'
+p60
+sg13
+I249
+sg14
+S'INR 249.00'
+p61
+sa(dp62
 g2
 I9
 sg3
-S'https://www.amazon.in/Panasonic-ER-GB30A-Battery-Operated-Trimmer/dp/B00B3QKQ40?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00B3QKQ40'
-p61
-sg5
-S'B00B3QKQ40'
-p62
-sg7
-S'Blue'
+S'https://www.amazon.in/Apple-iPhone-7-Black-128GB/dp/B01LXAS8M2?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01LXAS8M2'
 p63
-sg9
-S'Panasonic'
+sg5
+S'B01LXAS8M2'
 p64
-sg11
-S"Panasonic ER-GB30A Men's Battery Operated Trimmer"
+sg7
+S'Black'
 p65
-sg13
-I1235
-sg14
-S'INR 1,235.00'
+sg9
+S'Apple'
 p66
-sa(dp67
+sg11
+S'Apple iPhone 7 (Black, 128GB)'
+p67
+sg13
+I58000
+sg14
+S'INR 58,000.00'
+p68
+sa(dp69
 g2
 I10
 sg3
-Nsg5
-S'B075H1J3RZ'
-p68
-sg7
-S'Pink'
-p69
-sg9
-S'Veet'
+S'https://www.amazon.in/WOW-Imagine-Silicone-Protection-Shockproof/dp/B06XQYWSMC?psc=1&SubscriptionId=AKIAJNUVYTV7KYDQLSZA&tag=hal900007-21&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B06XQYWSMC'
 p70
-sg11
-S'Veet Sensitive Touch Electric Trimmer, and Veet Hair Removal Cream Sensitive Skin 100g'
+sg5
+S'B06XQYWSMC'
 p71
-sg13
-I2250
-sg14
-S'INR 2,250.00'
+sg7
+S'Pitch Black'
 p72
+sg9
+S'WOW Imagine'
+p73
+sg11
+S'WOW Imagine(TM) Soft Silicone All Sides Protection With Anti Dust Plugs Shockproof Slim Back Case Cover For Apple iPhone 8 / iPhone 7 (4.7 inch screen) - Pitch Black'
+p74
+sg13
+I219
+sg14
+S'INR 219.00'
+p75
 sa.

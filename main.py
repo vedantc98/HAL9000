@@ -3,7 +3,7 @@ import app.send_req
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/", methods=['GET'])
 def hello_world():
   return 'This is an app used for an e-commerce price-tracking chatbot. What are YOU doing here?'
 

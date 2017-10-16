@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 import pickle
 
-def searchXMLParse(temp_XML_path, numberOfResults, userID):
-	tree = ET.parse(temp_XML_path)
+def searchXMLParse(xmlFile, numberOfResults, userID):
+	tree = ET.fromstring(xmlFile)
 	root = tree.getroot()
 
 	searchResultsFileLocation = "/Users/vedantc98/Desktop/Code/HAL9000/Data/search_results_%s.txt" %(userID)

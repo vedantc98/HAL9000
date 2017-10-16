@@ -19,11 +19,11 @@ def get_search_results(searchQuery, numberOfResults, userID, searchIndex = "All"
 	r = requests.get(inputstr)
 	responseXML = r.text.encode('utf-8').strip()
 
-	xmlFile = open(temp_XML_file_path, "w")
-	xmlFile.write(responseXML)
-	xmlFile.close()
+	#xmlFile = open(temp_XML_file_path, "w")
+	#xmlFile.write(responseXML)
+	#xmlFile.close()
 
-	return search_parser.searchXMLParse(temp_XML_file_path, numberOfResults, userID)
+	return search_parser.searchXMLParse(responseXML, numberOfResults, userID)
 
 #query = raw_input().strip()
 #get_request_url(query.replace(" ", "+"))

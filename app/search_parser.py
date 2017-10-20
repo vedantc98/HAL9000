@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-#import pickle
+import url_shortening
 
 def searchXMLParse(xmlFile, numberOfResults):
 	tree = ET.fromstring(xmlFile)
@@ -23,7 +23,7 @@ def searchXMLParse(xmlFile, numberOfResults):
 		attributes['ASIN'] = asin
 		#Item URL
 		url = item[2].text
-		attributes['DetailPageURL'] = url
+		attributes['DetailPageURL'] = url_shortening.shorten(url)
 
 		#ItemAttributes
 		itemAttributes = None
@@ -44,9 +44,6 @@ def searchXMLParse(xmlFile, numberOfResults):
 				attributes['Title'] = itemAttributes[i].text
 
 		searchResults.append(attributes)
-
-	#with open(searchResultsFileLocation, "w") as searchResultsFile:
-	#	pickle.dump(searchResults, searchResultsFile)
 
 	return searchResults[:numberOfResults]
 

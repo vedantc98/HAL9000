@@ -1,9 +1,0 @@
-E-Commerce Chatbot features:
-Gives you a list of top items that match your needs based on input (“I need a new phone”, “Show me a few lighters”) from different sites
-Tracks a specific item(or a bunch of items) and lets you know when the price goes down.
-On sending an image with a barcode, it finds a list of the same(or similar) products and shows their price.
-Enable searching only from a specific website
-
-Issues:
-Keeping track of which user is interested in which product
-Giving a response without being prompted with an input(when you need to remind the user about how the item is doing)

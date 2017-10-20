@@ -8,15 +8,12 @@ def makeWebhookResponse(req):
 	action = None
 	contexts = None
 	parameters = None
-#	userID = None
 	if 'action' in result:
 		action = result['action']
 	if 'contexts' in req:
 		contexts = result['contexts']
 	if 'parameters' in result:
 		parameters = result['parameters']
-
-#	userID = req['originalRequest']['data']['user']['user_id']
 
 	if action == "web.search":
 		response = searchResponse(parameters)
@@ -38,13 +35,11 @@ def searchResponse(parameters):
 	results = send_req.get_search_results(searchQuery, numberOfItems, searchIndex)
 	speech = constructSpeechResponse(results)
 	displayText = speech
-#	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters : {}}] 
 	data = {}
 
 	return {
 			"speech" : speech,
 			"displayText" : displayText,
-			#"contextOut" : contextOut,
 			"source" : SOURCE
 	}	
 
@@ -63,7 +58,6 @@ def constructSpeechResponse(results):
 		speech += "Item url : " + item['DetailPageURL'] + "\n"
 		speech += "\n"
 
-	#speech += "To track any one of these items, respond with 'Track [item_number]'"
 	return speech
 
 def defaultResponse():

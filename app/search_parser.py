@@ -5,7 +5,6 @@ def searchXMLParse(xmlFile, numberOfResults):
 	tree = ET.fromstring(xmlFile)
 	root = tree
 
-	searchResultsFileLocation = "/Users/vedantc98/Desktop/Code/HAL9000/Data/search_results_%s.txt" %("0")
 	# Items begin from index 4
 	items = root[1][4:]
 	searchResults = []
@@ -32,7 +31,6 @@ def searchXMLParse(xmlFile, numberOfResults):
 				itemAttributes = item[i]
 		
 		for i in range(len(itemAttributes)):
-			# CHANGE THIS if you can bro
 			if itemAttributes[i].tag.find("ListPrice") != -1:
 				attributes['ListPrice'] = itemAttributes[i][2].text
 				attributes['price'] = int(itemAttributes[i][0].text)/100
@@ -46,11 +44,3 @@ def searchXMLParse(xmlFile, numberOfResults):
 		searchResults.append(attributes)
 
 	return searchResults[:numberOfResults]
-
-	#for result in searchResults:
-	#	print result['index']
-	#	for key in result:
-	#		print key, ":", result[key]
-
-
-#searchXMLParse("/Users/vedantc98/Desktop/Code/HAL9000/Responses/temp_search_results.xml")

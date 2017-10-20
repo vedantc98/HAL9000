@@ -50,7 +50,7 @@ def searchResponse(parameters):
 
 
 def constructSpeechResponse(results):
-	speech = "Here's a list of %d responses for the item you requested:\n"
+	speech = "Here's a list of %d responses for the item you requested:\n" %(len(results))
 	i = 1
 
 	for item in results:
@@ -60,7 +60,7 @@ def constructSpeechResponse(results):
 		speech += "Item url : " + item['DetailPageURL'] + "\n"
 		speech += "\n"
 
-	speech += "To track any one of these items, respond with 'Track [item_number]'"
+	#speech += "To track any one of these items, respond with 'Track [item_number]'"
 	return speech
 
 def defaultResponse():

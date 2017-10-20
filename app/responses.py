@@ -50,6 +50,9 @@ def searchResponse(parameters):
 
 
 def constructSpeechResponse(results):
+	if(len(results) == 0):
+		return "Couldn't find any results"
+
 	speech = "Here's a list of %d responses for the item you requested:\n" %(len(results))
 	i = 1
 

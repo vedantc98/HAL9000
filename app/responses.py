@@ -8,7 +8,7 @@ def makeWebhookResponse(req):
 	action = None
 	contexts = None
 	parameters = None
-	userID = None
+#	userID = None
 	if 'action' in result:
 		action = result['action']
 	if 'contexts' in req:
@@ -16,7 +16,7 @@ def makeWebhookResponse(req):
 	if 'parameters' in result:
 		parameters = result['parameters']
 
-	userID = req['originalRequest']['data']['user']['user_id']
+#	userID = req['originalRequest']['data']['user']['user_id']
 
 	if action == "web.search":
 		response = searchResponse(parameters)
@@ -35,17 +35,17 @@ def searchResponse(parameters):
 	if 'itemLimit' in parameters:
 		numberOfItems = parameters['itemLimit']
 
-	results = send_req.get_search_results(searchQuery, numberOfItems, userID, searchIndex)
+	results = send_req.get_search_results(searchQuery, numberOfItems, searchIndex)
 	speech = constructSpeechResponse(results)
 	displayText = speech
-	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters : {}}] 
+#	contextOut = [{"name" : "searchResponseDisplayed", "lifespan" : "1", parameters : {}}] 
 	data = {}
 
 	return {
 			"speech" : speech,
 			"displayText" : displayText,
 			#"contextOut" : contextOut,
-			"source" : source
+			"source" : SOURCE
 	}	
 
 
@@ -66,8 +66,8 @@ def constructSpeechResponse(results):
 def defaultResponse():
 	speech = "Could not find an appropriate response. File a bug?"
 	return {
-			"speech" : speech
-			"displayText" : speech
+			"speech" : speech,
+			"displayText" : speech,
 			"source" : "Us"
 	}
 

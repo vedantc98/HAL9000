@@ -1,11 +1,11 @@
 import xml.etree.ElementTree as ET
 #import pickle
 
-def searchXMLParse(xmlFile, numberOfResults, userID):
+def searchXMLParse(xmlFile, numberOfResults):
 	tree = ET.fromstring(xmlFile)
-	root = tree.getroot()
+	root = tree
 
-	searchResultsFileLocation = "/Users/vedantc98/Desktop/Code/HAL9000/Data/search_results_%s.txt" %(userID)
+	searchResultsFileLocation = "/Users/vedantc98/Desktop/Code/HAL9000/Data/search_results_%s.txt" %("0")
 	# Items begin from index 4
 	items = root[1][4:]
 	searchResults = []

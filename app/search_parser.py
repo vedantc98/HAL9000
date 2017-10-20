@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import url_shortening
+import url_shortener
 
 def searchXMLParse(xmlFile, numberOfResults):
 	tree = ET.fromstring(xmlFile)
@@ -23,7 +23,7 @@ def searchXMLParse(xmlFile, numberOfResults):
 		attributes['ASIN'] = asin
 		#Item URL
 		url = item[2].text
-		attributes['DetailPageURL'] = url_shortening.shorten(url)
+		attributes['DetailPageURL'] = url_shortener.shorten(url)
 
 		#ItemAttributes
 		itemAttributes = None
